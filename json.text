@@ -1,0 +1,17 @@
+ create a folder for server
+ 1.npm init -y(for crreating package.json)
+ 2.npm i json-server(to run json files)
+ 3..gitigonre file(ignore node_modules while adding to github)
+ 4.create a index.js
+ 5.start - start :node index.js
+ 6.create db.json to store json
+ .json - object
+ 7.its key should be string (diffrence b/w js and json)
+ 8.define server for running data in index,js
+   -import json server library
+   -create a server for jsondata
+   -set yp path for db.json
+   -use midleware to conver to json using default method-
+   -create port no
+   -use middleware and router
+   -listen server app to resolve requests
